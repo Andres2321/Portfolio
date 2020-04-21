@@ -1,25 +1,45 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Projects from './components/Projects'
+import './styles/landing.css'
+import './styles/reset.css'
+import './styles/aboutme.css'
+import './styles/projects.css'
+import './styles/page-transition.css'
+import Landing from './components/Landing'
+import { Route, Switch } from 'react-router-dom'
+import { CSSTransition, TransitionGroup } from 'react-transition-group'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Route render={({location}) =>
+        (
+          <TransitionGroup>
+            <CSSTransition
+              // creates key on css transition element 
+              // render both css transition groups when switching between components
+              key={location.key}
+              timeout={600}
+              classNames='fade'
+            >
+              <Switch location={location}>
+                <Route
+                  exact
+                  path='/'
+                  component={Landing}
+                />
+
+                <Route
+                  exact
+                  path='/projects'
+                  component={Projects}
+                />
+              </Switch>
+            </CSSTransition>
+          </TransitionGroup>
+        )}
+      />
+    </>
   );
 }
 

@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import Footer from './Footer'
 import Header from './Header'
 // const Mailto = require('react-mailto');
 
@@ -16,6 +14,10 @@ class Landing extends Component {
         <div className='landing-container'>
           <Header />
         </div>
+        <h1 className='intro-div'>Welcome,<br /> <br />My name is
+        andres <br /> an up and coming <br />
+        fullstack <br /> software <br /> developer
+        </h1>
       </>
     )
   }

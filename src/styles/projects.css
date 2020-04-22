@@ -1,22 +1,6 @@
-.project-card{
-width: 35vw;
-height: 40vh;
-margin: 2% 3%;
-}
-
-.project-section{
-width: 90vw;
-height: 80vh;
-justify-content: space-between;
-}
-
-.content-div{
-width: 43vw;
-height: 52vh;
-}
 
 .project1{
-  background: url(https://i.imgur.com/ul0rSTB.png);
+  background: url(https://i.imgur.com/ul0rSTBl.png);
 }
 
 .project2{
@@ -28,13 +12,7 @@ height: 52vh;
 }
 
 .project4{
-  background: url();
-}
-
-.background-images{
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: url(https://i.imgur.com/f2EkceMl.png);
 }
 
 .box-shadow{
@@ -43,12 +21,89 @@ height: 52vh;
   box-shadow: 0px 2px 19px -4px rgba(255,255,255,1);
 }
 
-.project-card-border{
-  border: 2px solid rgb(63, 63, 63);
+.projects-container{
+  background: url(http://www.cashadvance6online.com/data/archive/img/3036620531.png);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
-.description-div{
-  border-radius: 3%;
-  border: 2px solid rgb(63, 63, 63);
+.project-card{
+  width: 10vw;
+  height: 20vh;
+  background-color: rgb(19, 19, 19);
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.card-container{
+  justify-content: space-evenly;
+  height: 90vh;
+  align-items: center;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 23vw;
+  height: 60vh;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  justify-content: flex-start;
+
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  justify-content: space-around;
+  border-radius: 2%;
+}
+
+.flip-card-front {
   background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+}
+
+.background{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.image-div{
+  width: 90%;
+  height: 38%;
+  margin: 0 auto;
+}
+
+.technologies{
+  width: 90%;
+  height: 30%;
+}
+
+hr{
+  width: 70%;
 }

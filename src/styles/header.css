@@ -15,6 +15,7 @@ a{
 
 .image-size{
   width: 10%;
+  cursor: pointer;
 }
 
 .icons-container{

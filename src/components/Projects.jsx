@@ -1,63 +1,77 @@
 import React from 'react'
+import Header2 from './Header2'
 
 function Projects() {
 
   return (
-    <section className=''>
-
-      <section className='flex row border project-section center-h'>
-        <div className='content-div center-v project4 background-images'>
-
+    <>
+      <div className='projects-container'>
+      <Header2 />
+        <div className='card-container flex row'>
+          <div className="flip-card">
+            <div className="flip-card-inner">
+              <div className="flip-card-front flex column">
+                <h1>Random Trivia</h1>
+                <hr />
+                <div className='image-div project1 background border'></div>
+                <hr />
+                <div className='technologies'></div>
+              </div>
+              <div className="flip-card-back">
+                <h1>Random Trivia</h1>
+                <p>A quick and fun random trivia game, built with vanilla JavaScript. Click on start, and try to answer as many questions correctly as you can. There is a total of 15 questions, and at the end of the quiz, you can find out how you did.</p>
+              </div>
+            </div>
+          </div>
+          <div className="flip-card">
+            <div className="flip-card-inner">
+              <div className="flip-card-front flex column">
+                <h1>Get Schwifty</h1>
+                <hr />
+                <div className=" image-div project2 background border"></div>
+                <hr />
+                <div className='technologies'></div>
+              </div>
+              <div className="flip-card-back">
+                <h1>Get Schwifty</h1>
+                <p>This project was inspired by the Uber website. It is a interplanetary transportation service. You choose your location, and drivers based on their ratings. Funds are deducted from your e-wallet automatically.</p>
+              </div>
+            </div>
+          </div>
+          <div className="flip-card">
+            <div className="flip-card-inner">
+              <div className="flip-card-front flex column">
+                <h1>Buy Stuff Here</h1>
+                <hr />
+                <div className=' image-div project3 background border'></div>
+                <hr />
+                <div className='technologies'></div>
+              </div>
+              <div className="flip-card-back">
+                <h1>Buy Stuff Here</h1>
+                <p>E-commerce website, with complete CRUD capability. It includes a hand-rolled jwt authentication system. Post your items with a short discription and dont forget to include the price.</p>
+              </div>
+            </div>
+          </div>
+          <div className="flip-card">
+            <div className="flip-card-inner flex column">
+              <div className="flip-card-front flex column">
+                <h1>Animal Rescue</h1>
+                <hr />
+                <div className='image-div project4 background border'></div>
+                <hr />
+                <div className='technologies'></div>
+              </div>
+              <div className="flip-card-back">
+                <h1>Animal Rescue</h1>
+                <p>A mock website of my local animal shelter. This is a work in progress, as I would like to donate to the organization. It has full CRUD capability, with a sign in and register capability.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className='content-div center-v'>
-
-        </div>
-      </section>
-
-      <section className='flex row project-section center-h'>
-        <div className='content-div center-v description-div'>
-
-        </div>
-        <div className='content-div center-v project3 background-images box-shadow project-card-border'>
-
-        </div>
-      </section>
-
-      <section className='flex row project-section center-h'>
-        <div className='content-div center-v project2 background-images box-shadow project-card-border'>
-
-        </div>
-        <div className='content-div center-v'>
-
-        </div>
-      </section>
-
-      <section className='flex row project-section center-h'>
-        <div className='content-div center-v'>
-
-        </div>
-        <div className='content-div center-v project1 background-images box-shadow project-card-border'>
-
-        </div>
-      </section>
-
-    </section>
+      </div>
+    </>
   )
 }
 
 export default Projects
-
-
-
-
-
-
-
-{/* <h2 className='center-text white'>Projects</h2>
-<Link activeClassName='active' to='/' className='white'>Home</Link>
-<div className='flex row project-container'>
-  <div className='project-card border'></div>
-  <div className='project-card border'></div>
-  <div className='project-card border'></div>
-  <div className='project-card border'></div>
-</div> */}

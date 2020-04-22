@@ -1,0 +1,13 @@
+.header-container2{
+  width: 100vw;
+  height: 5vh;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  font-size: 2em;
+}
+
+.home{
+  margin: 1% 10%;
+  cursor: pointer;
+}

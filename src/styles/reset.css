@@ -1,5 +1,6 @@
 body{
-
+  margin: 0;
+  padding: 0;
   background-color: #252833;
 }
 
@@ -7,7 +8,7 @@ a{
   width: auto;
 }
 
-*{
+html{
   margin: 0;
   padding: 0;
 }

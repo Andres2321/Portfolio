@@ -5,6 +5,9 @@ import './styles/reset.css'
 import './styles/aboutme.css'
 import './styles/projects.css'
 import './styles/page-transition.css'
+import './styles/global.css'
+import './styles/footer.css'
+import './styles/header.css'
 import Landing from './components/Landing'
 import { Route, Switch } from 'react-router-dom'
 import { CSSTransition, TransitionGroup } from 'react-transition-group'
@@ -22,6 +25,7 @@ function App() {
               timeout={600}
               classNames='fade'
             >
+
               <Switch location={location}>
                 <Route
                   exact

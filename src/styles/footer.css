@@ -1,0 +1,13 @@
+.footer-container{
+  width: 100vw;
+  height: 20vh;
+}
+
+.icons-constainer{
+  width: 80vw;
+  height: 10vh;
+  border-top: 3px rgb(255, 238, 0) solid;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+

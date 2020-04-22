@@ -1,0 +1,28 @@
+a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 5%;
+  font-size: 1.5em;
+}
+
+.header-container{
+  transform: rotate(-27deg);
+  position: absolute;
+  width: 60%;
+  height: 30px;
+  margin-top: 8%;
+}
+
+.image-size{
+  width: 10%;
+}
+
+.icons-container{
+  position: absolute;
+  margin-left: 57%;
+  margin-top: 14.5%;
+  width: 20%;
+  transform: rotate(36deg);
+  justify-content: space-between;
+  width: 40%;
+}

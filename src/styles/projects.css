@@ -4,3 +4,51 @@ height: 40vh;
 margin: 2% 3%;
 }
 
+.project-section{
+width: 90vw;
+height: 80vh;
+justify-content: space-between;
+}
+
+.content-div{
+width: 43vw;
+height: 52vh;
+}
+
+.project1{
+  background: url(https://i.imgur.com/ul0rSTB.png);
+}
+
+.project2{
+  background: url(https://i.imgur.com/8hQcujB.png);
+}
+
+.project3{
+  background: url(https://i.imgur.com/8Wi7fMk.png);
+}
+
+.project4{
+  background: url();
+}
+
+.background-images{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.box-shadow{
+  -webkit-box-shadow: 0px 2px 19px -4px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 2px 19px -4px rgba(255,255,255,1);
+  box-shadow: 0px 2px 19px -4px rgba(255,255,255,1);
+}
+
+.project-card-border{
+  border: 2px solid rgb(63, 63, 63);
+}
+
+.description-div{
+  border-radius: 3%;
+  border: 2px solid rgb(63, 63, 63);
+  background-color: rgb(255, 255, 255);
+}

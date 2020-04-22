@@ -26,7 +26,7 @@ function Header() {
           </img>
 
           <img
-            onClick={() => { window.open('') }}
+            onClick={() => { navigator.clipboard.writeText('andres-a23@live.com') }}
             className='image-size'
             src='https://i.imgur.com/9h7yFXA.png?1'
             alt='email icon'>

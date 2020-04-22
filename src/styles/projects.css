@@ -38,9 +38,10 @@
 }
 
 .card-container{
-  justify-content: space-evenly;
+  justify-content: space-around;
   height: 90vh;
   align-items: center;
+  cursor: pointer;
 }
 
 .flip-card {
@@ -101,9 +102,25 @@
 
 .technologies{
   width: 90%;
-  height: 30%;
+  height: 10%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.size {
+font-size: 40px;
 }
 
 hr{
   width: 70%;
+}
+
+.technologies2{
+  width: 90%;
+  height: 24%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 auto;
 }

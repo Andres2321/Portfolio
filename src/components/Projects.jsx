@@ -6,16 +6,22 @@ function Projects() {
   return (
     <>
       <div className='projects-container'>
-      <Header2 />
+        <Header2 />
         <div className='card-container flex row'>
-          <div className="flip-card">
+          <div className="flip-card"
+          onClick={() => { window.open('http://rand-trivia-game.surge.sh/index.html') }}>
             <div className="flip-card-inner">
               <div className="flip-card-front flex column">
                 <h1>Random Trivia</h1>
                 <hr />
                 <div className='image-div project1 background border'></div>
                 <hr />
-                <div className='technologies'></div>
+                <div className='technologies2 flex row'>
+                  <i className="devicon-javascript-plain colored size"></i>
+                  <i className="devicon-css3-plain-wordmark colored size"></i>
+                  <i class="devicon-html5-plain-wordmark colored size"></i>
+                  <i class="devicon-github-plain-wordmark colored size"></i>
+                </div>
               </div>
               <div className="flip-card-back">
                 <h1>Random Trivia</h1>
@@ -23,44 +29,79 @@ function Projects() {
               </div>
             </div>
           </div>
-          <div className="flip-card">
+          <div className="flip-card"
+            onClick={() => { window.open('https://goschwifty.surge.sh/') }}
+          >
             <div className="flip-card-inner">
               <div className="flip-card-front flex column">
-                <h1>Get Schwifty</h1>
+                <h1>Go Schwifty</h1>
                 <hr />
                 <div className=" image-div project2 background border"></div>
                 <hr />
-                <div className='technologies'></div>
+                <div className='technologies2 flex row'>
+                  <i className="devicon-javascript-plain colored size"></i>
+                  <i className="devicon-css3-plain-wordmark colored size"></i>
+                  <i class="devicon-html5-plain-wordmark colored size"></i>
+                  <i class="devicon-github-plain-wordmark colored size"></i>
+                  <i class="devicon-react-original-wordmark colored size"></i>
+                </div>
               </div>
               <div className="flip-card-back">
-                <h1>Get Schwifty</h1>
+                <h1>Go Schwifty</h1>
                 <p>This project was inspired by the Uber website. It is a interplanetary transportation service. You choose your location, and drivers based on their ratings. Funds are deducted from your e-wallet automatically.</p>
               </div>
             </div>
           </div>
-          <div className="flip-card">
+          <div className="flip-card"
+            onClick={() => { window.open('http://buystuffhere.surge.sh/') }}
+          >
             <div className="flip-card-inner">
               <div className="flip-card-front flex column">
                 <h1>Buy Stuff Here</h1>
                 <hr />
                 <div className=' image-div project3 background border'></div>
                 <hr />
-                <div className='technologies'></div>
+                <div className='technologies flex row'>
+                  <i className="devicon-javascript-plain colored size"></i>
+                  <i className="devicon-css3-plain-wordmark colored size"></i>
+                  <i class="devicon-html5-plain-wordmark colored size"></i>
+                  <i class="devicon-github-plain-wordmark colored size"></i>
+                  <i class="devicon-react-original-wordmark colored size"></i>
+                </div>
+                <div className='technologies flex row'>
+                  <i class="devicon-mongodb-plain-wordmark colored size"></i>
+                  <i class="devicon-express-original-wordmark colored size"></i>
+                  <i class="devicon-nodejs-plain-wordmark colored size"></i>
+                  <i class="devicon-heroku-line-wordmark colored size"></i>
+                </div>
               </div>
               <div className="flip-card-back">
                 <h1>Buy Stuff Here</h1>
-                <p>E-commerce website, with complete CRUD capability. It includes a hand-rolled jwt authentication system. Post your items with a short discription and dont forget to include the price.</p>
+                <p>E-commerce website, with complete CRUD capability. It includes a hand-rolled jwt authentication system. Post your items with a short discription and dont forGo to include the price.</p>
               </div>
             </div>
           </div>
-          <div className="flip-card">
+          <div className="flip-card"
+            onClick={() => { window.open('http://rand-trivia-game.surge.sh/index.html') }}
+          >
             <div className="flip-card-inner flex column">
               <div className="flip-card-front flex column">
                 <h1>Animal Rescue</h1>
                 <hr />
                 <div className='image-div project4 background border'></div>
                 <hr />
-                <div className='technologies'></div>
+                <div className='technologies flex row'>
+                  <i className="devicon-javascript-plain colored size"></i>
+                  <i className="devicon-css3-plain-wordmark colored size"></i>
+                  <i class="devicon-html5-plain-wordmark colored size"></i>
+                  <i class="devicon-github-plain-wordmark colored size"></i>
+                </div>
+                <div className='technologies flex row'>
+                  <i class="devicon-react-original-wordmark colored size"></i>
+                  <i class="devicon-ruby-plain-wordmark colored size"></i>
+                  <i class="devicon-rails-plain-wordmark colored size"></i>
+                  <i class="devicon-nodejs-plain-wordmark colored size"></i>
+                </div>
               </div>
               <div className="flip-card-back">
                 <h1>Animal Rescue</h1>

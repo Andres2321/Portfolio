@@ -29,3 +29,11 @@ a{
   justify-content: space-between;
   width: 40%;
 }
+
+#cancel{
+  cursor: pointer;
+}
+
+.copy-alert{
+  position: absolute;
+}

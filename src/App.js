@@ -17,14 +17,14 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group'
 function App() {
   return (
     <>
-      <Route render={({location}) =>
+      <Route render={({ location }) =>
         (
           <TransitionGroup>
             <CSSTransition
               // creates key on css transition element 
               // render both css transition groups when switching between components
               key={location.key}
-              timeout={600}
+              timeout={300}
               classNames='fade'
             >
 

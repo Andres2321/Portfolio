@@ -10,4 +10,5 @@
 .home{
   margin: 1% 10%;
   cursor: pointer;
+  text-shadow: 8px 7px 5px #000000;
 }

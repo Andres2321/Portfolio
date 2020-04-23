@@ -1,56 +1,95 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import { Alert, AlertTitle } from '@material-ui/lab';
+import Tooltip from '@material-ui/core/Tooltip';
 
-function Header() {
+class Header extends Component {
+  state = {
+    showAlert: false
+  }
 
-  return (
-    <div>
-      <div>
-        <div className='header-container flex row'>
-          <Link
-            className=''
-            to='/about-me'>ABOUT</Link>
-          <Link
-            className=''
-            to='/projects'>PROJECTS</Link>
-          {/* <Link
-            className=''
-            to='/contact-me'>CONTACT ME</Link> */}
+  copyAlert = () => {
+    this.setState({
+      showAlert: true
+    })
+  }
+
+  render() {
+    const { showAlert } = this.state
+    return (
+      <>
+        <div>
+          <div className='header-container flex row'>
+            <Link
+              to='/about-me'>ABOUT</Link>
+            <Link
+              to='/projects'>PROJECTS</Link>
+          </div>
+          <div className='icons-container flex row'>
+
+            <Tooltip title='GitHub'>
+              <img
+                onClick={() => {
+                  window.open('https://www.github.com/Andres2321')
+                }}
+                className='image-size'
+                src='https://i.imgur.com/yRJGw7i.png?2'
+                alt='GitHub icon'>
+              </img>
+            </Tooltip>
+
+            <Tooltip title='Click to copy my email'>
+              <img
+                onClick={() => { navigator.clipboard.writeText('andres-a23@live.com'); this.copyAlert() }}
+                className='image-size'
+                src='https://i.imgur.com/9h7yFXA.png?1'
+                alt='email icon'>
+              </img>
+            </Tooltip>
+
+            <Tooltip title='LinkedIn'>
+              <img
+                onClick={() => { window.open('https://www.linkedin.com/in/andres-arias23') }}
+                className='image-size'
+                src='https://i.imgur.com/NFyGGYf.png?1'
+                alt='linked-in icon'>
+              </img>
+            </Tooltip>
+
+            <Tooltip title='Resume'>
+              <img
+                onClick={() => { window.open('https://docdro.id/1ZrC92r') }}
+                className='image-size'
+                src='https://i.imgur.com/Vrzjmsh.png?1'
+                alt='resume icon'>
+              </img>
+            </Tooltip>
+
+          </div>
         </div>
-        <div className='icons-container flex row'>
-          <img
-            onClick={() => { window.open('https://www.github.com/Andres2321') }}
-            className='image-size'
-            src='https://i.imgur.com/yRJGw7i.png?2'
-            alt='GitHub icon'>
-          </img>
-
-          <img
-            onClick={() => { navigator.clipboard.writeText('andres-a23@live.com') }}
-            className='image-size'
-            src='https://i.imgur.com/9h7yFXA.png?1'
-            alt='email icon'>
-          </img>
-
-          <img
-            onClick={() => { window.open('https://www.linkedin.com/in/andres-arias-b80235b4') }}
-            className='image-size'
-            src='https://i.imgur.com/NFyGGYf.png?1'
-            alt='linked-in icon'>
-          </img>
-
-          <img
-            onClick={() => { window.open('https://docdro.id/1ZrC92r') }}
-            className='image-size'
-            src='https://i.imgur.com/Vrzjmsh.png?1'
-            alt='resume icon'>
-          </img>
-        </div>
-
-      </div>
-
-    </div>
-  )
+        
+        {showAlert ?
+          <div className='copy-alert'>
+            <Tooltip title='Click to close alert'>
+              <Alert
+                id='cancel'
+                onClick={() => {
+                  this.setState({
+                    showAlert: false
+                  })
+                }}
+                severity="success">
+                <AlertTitle>Success</AlertTitle>
+            You have successfully copied my email to your clipboard! Send me an email.
+          </Alert>
+            </Tooltip>
+          </div>
+          :
+          <>
+          </>
+        }
+      </>
+    )
+  }
 }
-
 export default Header 

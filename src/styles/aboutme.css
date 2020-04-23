@@ -1,0 +1,41 @@
+.about-me-container{
+  background: url(https://i.imgur.com/mUEGZeY.jpg);
+}
+
+.info-container{
+  height: 70vh;
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-div{
+  width: 55vw;
+  height: 50vh;
+  color: rgb(255, 255, 255);
+  font-size: 2.5em;
+}
+
+.picture-div{
+  width: 30vw;
+  height: 50vh;
+  background: url(https://i.imgur.com/AWfOUkw.png);
+  width: 20vw;
+  height: 35vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 5px solid rgb(255, 255, 255);
+  margin: 0 auto;
+  background-color: white;
+}
+
+#hr{
+width: 100%;
+}
+
+.font-family{
+  font-family: 'Raleway', sans-serif;
+}

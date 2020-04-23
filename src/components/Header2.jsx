@@ -6,7 +6,7 @@ function Header2(props) {
     <div className='header-container2 flex row'>
       <div
         onClick={() => { props.history.push('/') }}
-        className='white home'>Home</div>
+        className='white home font-family'>Home</div>
       <div className='white'></div>
     </div>
   )

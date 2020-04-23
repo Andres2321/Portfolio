@@ -39,3 +39,8 @@ flex-direction: column;
 .center-v{
   margin: auto 0;
 }
+
+h1, p{
+  font-family: 'Raleway', sans-serif;
+}
+

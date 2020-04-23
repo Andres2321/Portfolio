@@ -1,5 +1,6 @@
 import React from 'react';
 import Projects from './components/Projects'
+import AboutMe from './components/AboutMe'
 import './styles/landing.css'
 import './styles/reset.css'
 import './styles/aboutme.css'
@@ -34,6 +35,11 @@ function App() {
                   component={Landing}
                 />
 
+                <Route
+                  exact
+                  path='/about-me'
+                  component={AboutMe}
+                />
                 <Route
                   exact
                   path='/projects'

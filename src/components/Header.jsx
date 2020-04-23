@@ -6,16 +6,16 @@ function Header() {
   return (
     <div>
       <div>
-        <div className='header-container'>
+        <div className='header-container flex row'>
           <Link
             className=''
-            to='/projects'>ABOUT</Link>
+            to='/about-me'>ABOUT</Link>
           <Link
             className=''
             to='/projects'>PROJECTS</Link>
-          <Link
+          {/* <Link
             className=''
-            to='/projects'>CONTACT ME</Link>
+            to='/contact-me'>CONTACT ME</Link> */}
         </div>
         <div className='icons-container flex row'>
           <img

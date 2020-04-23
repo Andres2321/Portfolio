@@ -25,7 +25,8 @@ function Projects() {
               </div>
               <div className="flip-card-back">
                 <h1 id='black'>Random Trivia</h1>
-                <p>A quick and fun random trivia game, built with vanilla JavaScript. Click on start, and try to answer as many questions correctly as you can. There is a total of 15 questions, and at the end of the quiz, you can find out how you did.</p>
+                <hr />
+                <p className='description'>A quick and fun random trivia game, built with vanilla JavaScript. Click on start, and try to answer as many questions correctly as you can. There is a total of 15 questions, and at the end of the quiz, you can find out how you did.</p>
               </div>
             </div>
           </div>
@@ -48,7 +49,8 @@ function Projects() {
               </div>
               <div className="flip-card-back">
                 <h1 id='black'>Go Schwifty</h1>
-                <p>This project was inspired by the Uber website. It is an interplanetary transportation service. You choose your location, and drivers based on their ratings. Funds are deducted from your e-wallet automatically.</p>
+                <hr />
+                <p className='description'>This project was inspired by the Uber website. It is an interplanetary transportation service. You choose your location, and drivers based on their ratings. Funds are deducted from your e-wallet automatically.</p>
               </div>
             </div>
           </div>
@@ -59,7 +61,7 @@ function Projects() {
               <div className="flip-card-front flex column">
                 <h1 id='black'>Buy Stuff Here</h1>
                 <hr />
-                <div className=' image-div project3 background border'></div>
+                <div className='image-div project3 background border'></div>
                 <hr />
                 <div className='technologies flex row'>
                   <i className="devicon-javascript-plain colored size"></i>
@@ -77,7 +79,8 @@ function Projects() {
               </div>
               <div className="flip-card-back">
                 <h1 id='black'>Buy Stuff Here</h1>
-                <p>E-commerce website, with complete CRUD capability. It includes a hand-rolled jwt authentication system. Post your items with a short discription and dont forget to include the price.</p>
+                <hr />
+                <p className='description'>E-commerce website, with complete CRUD capability. It includes a hand-rolled jwt authentication system. Post your items with a short discription and dont forget to include the price.</p>
               </div>
             </div>
           </div>
@@ -105,7 +108,8 @@ function Projects() {
               </div>
               <div className="flip-card-back">
                 <h1 id='black'>Animal Rescue</h1>
-                <p>A mock website of my local animal shelter. This is a work in progress, as I would like to donate to the organization. It has full CRUD capability, with a sign in and register capability.</p>
+                <hr />
+                <p className='description'>A mock website of my local animal shelter. This is a work in progress, as I would like to donate to the organization. It has full CRUD capability, with a sign in and register capability.</p>
               </div>
             </div>
           </div>

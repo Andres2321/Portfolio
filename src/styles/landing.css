@@ -31,12 +31,6 @@ h1{
   text-align: center;
 }
 
-.home-picture{
-  transform: rotate(-15deg);
-  margin-top: 8.9%;
-  margin-left: 35%;
-}
-
 .profile-picture{
   background: url(https://i.imgur.com/AWfOUkw.png);
   width: 200px;

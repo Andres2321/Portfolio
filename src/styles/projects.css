@@ -124,3 +124,7 @@ hr{
   align-content: center;
   margin: 0 auto;
 }
+
+.description{
+  font-size: 1.5em;
+}

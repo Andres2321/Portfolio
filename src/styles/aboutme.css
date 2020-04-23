@@ -1,5 +1,8 @@
 .about-me-container{
   background: url(https://i.imgur.com/mUEGZeY.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .info-container{
@@ -19,11 +22,9 @@
 }
 
 .picture-div{
-  width: 30vw;
-  height: 50vh;
   background: url(https://i.imgur.com/AWfOUkw.png);
-  width: 20vw;
-  height: 35vh;
+  width: 400px;
+  height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 50%;

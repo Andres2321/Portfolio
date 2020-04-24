@@ -29,7 +29,7 @@ function Projects() {
                 <hr />
                 <p className='description italic'>Click anywhere in the card to go to the live site, or click the GitHub icon to open both!</p>
                 <i
-                  onClick={() => { window.open('https://github.com/Andres2321/Trivia-Game') }}
+                  onClick={() => { window.open('https://github.com/Andres2321/Trivia-Game'); window.open('http://rand-trivia-game.surge.sh/index.html') }}
                   className="devicon-github-plain-wordmark colored size"></i>
               </div>
             </div>

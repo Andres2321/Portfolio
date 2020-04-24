@@ -17,7 +17,7 @@ function AboutMe() {
           I love creating unique and interesting designs, and the feeling 
           you get when solving a difficult algorithm. Aside from working on
           projects, I like to develop video games. I'm currently working on 
-            finishing my very first full game. Head over to my <strong><Link id='strong' to='/projects'>projects</Link></strong> page, 
+            finishing my very first full game. Head over to my <Link id='strong' to='/projects'>projects</Link> page, 
             and check out some of my work.
           </p>
         </div>

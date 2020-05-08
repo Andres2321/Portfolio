@@ -9,9 +9,8 @@ function Landing() {
         <Header />
         <div className='intro-div flex column'>
           <div className='profile-picture'></div>
-          <h1 >Welcome!<br /> <br />My name is
-              Andres, <br /> an up and coming <br />
-              fullstack software <br /> developer.
+          <h1 id='intro'>Welcome!<br /> <br />Andres Arias<br />
+              Fullstack Software Developer
             </h1>
         </div>
       </div>

@@ -91,7 +91,7 @@ function Projects() {
                 <hr />
                 <p className='description italic'>Click anywhere in the card to go to the live site, or click the GitHub icon to open both!</p>
                 <i
-                  onClick={() => { window.open('https://github.com/Andres2321/Space-Uber') }}
+                  onClick={() => { window.open("https://github.com/bliu104/bestgroupproject"); }}
                   className="devicon-github-plain-wordmark colored size"></i>
               </div>
             </div>

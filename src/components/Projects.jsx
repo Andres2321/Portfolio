@@ -97,7 +97,7 @@ function Projects() {
             </div>
           </div>
           <div className="flip-card"
-            onClick={() => { window.open('http://rand-trivia-game.surge.sh/index.html') }}
+            onClick={() => { window.open("animal-rescue.surge.sh "); }}
           >
             <div className="flip-card-inner flex column">
               <div className="flip-card-front flex column">

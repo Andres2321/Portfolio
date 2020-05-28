@@ -58,7 +58,7 @@ class Header extends Component {
 
             <Tooltip title='Resume'>
               <img
-                onClick={() => { window.open('https://docdro.id/qEKvuIo') }}
+                onClick={() => { window.open("https://www.docdroid.net/vYu5wop/andresarias-pdf"); }}
                 className='image-size'
                 src='https://i.imgur.com/Vrzjmsh.png?1'
                 alt='resume icon'>
